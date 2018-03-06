@@ -367,7 +367,7 @@ func roundToColorValue(x float64) int {
 	if res < 0 {
 		res = 0
 	} else if res > 255 {
-		x = 255
+		res = 255
 	}
 	return res
 }
